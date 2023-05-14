@@ -28,7 +28,7 @@ const SignIn = () => {
   };
 
   return (
-    <div style={{ width:'50%', margin:'20px auto' }}>
+    <div style={{ width:'50%', margin:'20px auto', height:'100vh' }}>
       <h2 style={{ marginBottom: '20px' }}>Sign In</h2>
       <Formik
         initialValues={initialValues}
