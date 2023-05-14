@@ -1,44 +1,49 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import "./css/Services.css"
-
+import HomeAppliances from "../images/homeappliances.jpeg"
+import SmartTv from "../images/smarttv.webp"
+import Mobiles from "../images/mobiles.jpg"
+import Laptops from "../images/Laptops.jpeg"
+import MensGarments from "../images/mensgarments.jpeg"
+import Shoess from "../images/shoess.jpeg"
 
 const services = [
   {
     id: 1,
-    title: 'Service 1',
-    description: 'Description of service 1',
-    imageUrl: 'https://via.placeholder.com/300x200',
+    title: 'Home Appliances',
+    description: 'Description of Home Appliances',
+    imageUrl: HomeAppliances,
   },
   {
     id: 2,
-    title: 'Service 2',
-    description: 'Description of service 2',
-    imageUrl: 'https://via.placeholder.com/300x200',
+    title: 'Smart Tv',
+    description: 'Description of Smart',
+    imageUrl: SmartTv,
   },
   {
     id: 3,
-    title: 'Service 3',
-    description: 'Description of service 3',
-    imageUrl: 'https://via.placeholder.com/300x200',
+    title: 'Mobiles',
+    description: 'Description of Mobiles',
+    imageUrl: Mobiles,
   },
   {
     id: 4,
-    title: 'Service 3',
-    description: 'Description of service 3',
-    imageUrl: 'https://via.placeholder.com/300x200',
+    title: 'Laptops',
+    description: 'Description of Laptops',
+    imageUrl: Laptops,
   },
   {
     id: 5,
-    title: 'Service 3',
-    description: 'Description of service 3',
-    imageUrl: 'https://via.placeholder.com/300x200',
+    title: "Men's Garments",
+    description: "Description of Men's Garments",
+    imageUrl: MensGarments,
   },
   {
     id: 6,
-    title: 'Service 3',
-    description: 'Description of service 3',
-    imageUrl: 'https://via.placeholder.com/300x200',
+    title: 'Shoes',
+    description: 'Description of Shoes',
+    imageUrl: Shoess,
   },
 ];
 

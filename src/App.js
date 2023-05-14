@@ -15,10 +15,10 @@ import SignUp from './Components/SignUp';
 
 function App() {
   return (
-    <div>
+    <div className="body-container ">
       <Router>
         <NavigationBar />
-        <div className="container">
+        <div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
@@ -26,14 +26,18 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/about" element={<About />} />
             <Route path="/signin" element={<SignIn />}/>
-            <Route path="/signup" element={<SignUp />}/>
+            <Route path="/signup" element={<SignUp />}/> 
           </Routes>
+         
         </div>
         <br /> <br />  <br /> <br /> <br /> <br />
-        <Footer />
+        
       </Router>
+      <Router> <Footer /></Router>
     </div>
   );
 }
+
+// https://reactpages-f746f.web.app/
 
 export default App;

@@ -54,8 +54,8 @@ const Contact = () => {
       </Formik> 
           
       
-          <p>If you want to login? Please <Link to="/signin" style={{textDecoration:'none', fontWeight:'bold'}}>Sign In</Link></p>
-        <p>Or want to create new account? <Link to="/signup"style={{textDecoration:'none', fontWeight:'bold'}}>Sign Up</Link>
+          <p>If you want to login? Please <Link to="/signin" style={{textDecoration:'none'}}>Sign In</Link></p>
+        <p>Or want to create new account? <Link to="/signup"style={{textDecoration:'none'}}>Sign Up</Link>
       </p>
     </div>
   );

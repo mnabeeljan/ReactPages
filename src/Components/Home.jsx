@@ -5,7 +5,7 @@ import { Carousel, Card, Button } from 'react-bootstrap';
 const Home = () => {
   return (
     <>
-      <div className="container my-5">
+      <div className="container-fluid my-5">
         <div className="row">
           <div className="col-md-12">
             <Carousel>
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div className="container-fluid my-5">
         <div className="row">
           <div className="col-md-4">
             <Card>
